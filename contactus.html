@@ -1,0 +1,222 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <title>Quizify® — Online Quiz App to Learn & Practice MCQs</title>
+
+  <!-- Primary SEO -->
+  <meta name="description" content="Quizify is an interactive online quiz app to learn and practice multiple-choice questions (MCQs) with instant feedback, timed quizzes, and progress tracking." />
+  <link rel="canonical" href="https://www.quizify.com/" />
+  <meta name="robots" content="index, follow" />
+  <meta name="keywords" content="Quizify, quiz app, online quizzes, practice tests, MCQ quizzes, learning app, trivia games" />
+
+  <!-- Open Graph (Facebook & LinkedIn) -->
+  <meta property="og:type" content="website" />
+  <meta property="og:locale" content="en_US" />
+  <meta property="og:title" content="Quizify — Learn & Practice Online Quizzes" />
+  <meta property="og:description" content="Quizify lets you test knowledge with interactive quizzes, timed challenges, and instant feedback." />
+  <meta property="og:url" content="https://www.quizify.com/" />
+  <meta property="og:site_name" content="Quizify" />
+  <meta property="og:image" content="https://www.quizify.com/assets/quizify-cover.png" />
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Quizify — Fun & Interactive Quiz App" />
+  <meta name="twitter:description" content="Practice quizzes, test your knowledge, and track progress with Quizify." />
+  <meta name="twitter:image" content="https://www.quizify.com/assets/quizify-cover.png" />
+
+  <!-- Mobile / PWA -->
+  <meta name="theme-color" content="#0a74da" />
+  <link rel="manifest" href="/manifest.json" />
+  <link rel="icon" href="/favicon.ico" />
+
+
+  <link rel="stylesheet" href="style.css">
+
+   <link rel="icon" type="image/x-icon" href="images/1.png">
+
+  <!-- Performance Hints -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+   
+
+  <!-- Structured Data: Website Schema -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "Quizify",
+    "url": "https://www.quizify.com/",
+    "potentialAction": {
+      "@type": "SearchAction",
+      "target": "https://www.quizify.com/search?q={search_term_string}",
+      "query-input": "required name=search_term_string"
+    },
+    "description": "Quizify is an online quiz platform to learn and practice multiple-choice questions (MCQs) with instant feedback and progress tracking."
+  }
+  </script>
+
+  <style>
+    h1 ,h3{
+      align-items: center;
+      text-align: center;
+      
+    }
+
+    h2{
+        align-items: center;
+      text-align: center;
+      font-size: 30px;
+     
+    }
+
+    h1{
+     color:#4A3AFF;
+     font-size: 100px;
+    }
+
+    iframe {
+     margin-top: 3%;
+    
+    }
+.contact {
+      background-color: white;
+      padding: 30px 40px;
+      border-radius: 15px;
+      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+      width: 100%;
+      max-width: 450px;
+    }
+
+    .contact label {
+      font-weight: 600;
+      margin-bottom: 5px;
+      display: block;
+      color: #333;
+    }
+
+    .contact select,
+    .contact input,
+    .contact textarea {
+      width: 100%;
+      padding: 10px 12px;
+      margin-bottom: 20px;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      font-size: 14px;
+      transition: 0.3s ease;
+    }
+
+    .contact select:focus,
+    .contact input:focus,
+    .contact textarea:focus {
+      border-color: #007bff;
+      outline: none;
+      box-shadow: 0 0 5px rgba(0, 123, 255, 0.4);
+    }
+
+    .contact textarea {
+      resize: vertical;
+      min-height: 100px;
+      max-length: 300;
+    }
+
+    .contact button {
+      width: 100%;
+      padding: 12px;
+      background-color: #007bff;
+      color: white;
+      border: none;
+      border-radius: 8px;
+      font-size: 16px;
+      cursor: pointer;
+      transition: 0.3s ease;
+    }
+
+    .contact button:hover {
+      background-color: #0056b3;
+    }
+
+    .contact button a {
+      color: white;
+      text-decoration: none;
+      display: block;
+    }
+    h4{
+      text-align: center;
+    }
+    
+  </style>
+</head>
+
+<body>
+  <nav>
+    <form>
+      <div class="navbar">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="technicalquiz.html"> Technical Quiz</a></li>
+          <li><a href="nontechnicalquiz.html"> Non Technical Quiz</a></li>
+          <li><a href="contactus.html">Contact Us</a></li>
+        </ul>
+      </div>
+      </form>
+  </nav>
+            <h1>Quizify<sup>®</sup></h1>
+
+            <h2>Contact Us </h2>
+            <h3>Feedback and Queries</h3>
+
+            <center>
+              <form class="contact" action="SucessForm.html">
+    <label for="reason">Select Reason (Any One)</label>
+    <select name="reason" id="reason" required>
+      <option value="" disabled selected>Select a reason</option>
+      <option>Technical Quiz</option>
+      <option>Non Technical Quiz</option>
+      <option>None Of The Above</option>
+    </select>
+
+    <label for="name">Enter Name</label>
+    <input type="text" id="name" name="name" class="input-field" placeholder="Enter Your Name" required>
+
+    <label for="number">Enter Your Valid Phone Number</label>
+    <input type="tel" id="number" name="number" class="input-field" placeholder="Enter your 10-digit phone number" pattern="[0-9]{10}" required>
+
+    <label for="feedback">Drop your feedback/query</label>
+    <textarea id="feedback" name="feedback" maxlength="300" placeholder="Max Allowed Characters: 300"></textarea>
+
+    <button type="submit">Submit</button>
+  </form>
+
+
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3712.330635018626!2d86.9177198!3d21.4947655!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a1cf5a0a6f8e213%3A0x69adb88d4a75a9a2!2sSKMP%20INFOTECH%20TECHNOLOGIES!5e0!3m2!1sen!2sin!4v1759851054597!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+  </center>
+
+      
+
+        
+            <h4>Corporate Address (For Communications):
+Quizify
+A-143, 7th Floor, balasore,odisha 756001
++91-7008608082(Course related Queries)</h4>
+
+
+  <!-- Footer Start -->
+<footer class="footer">
+  <div class="footer-content">
+    <p>&copy; 2025 Quizify<sup>®</sup> Website. Made By<a href="https://uqzpr8pm2c24p2fpksmuiw.on.drv.tw/SKMP%20INFOTECH%20TECHNOLOGIES/SKMP%20NEW%20%20CEO%20PORTAL/"> Er:- Suzen Kumar Mohanty </a> All rights reserved.(project Purpose not for sale)</p>
+    <p>
+      <a href="#">Privacy Policy</a> | 
+      <a href="#">Terms of Service</a>
+    </p>
+  </div>
+</footer>
+<!-- Footer End -->
+
+</body>
+
+ 
+</html>

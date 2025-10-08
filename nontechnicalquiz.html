@@ -1,0 +1,912 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <title>(Technical Quiz)Quizify — Online Quiz App to Learn & Practice MCQs</title>
+
+  <!-- Primary SEO -->
+  <meta name="description"
+    content="Quizify is an interactive online quiz app to learn and practice multiple-choice questions (MCQs) with instant feedback, timed quizzes, and progress tracking." />
+  <link rel="canonical" href="https://www.quizify.com/" />
+  <meta name="robots" content="index, follow" />
+  <meta name="keywords"
+    content="Quizify, quiz app, online quizzes, practice tests, MCQ quizzes, learning app, trivia games" />
+
+  <!-- Open Graph (Facebook & LinkedIn) -->
+  <meta property="og:type" content="website" />
+  <meta property="og:locale" content="en_US" />
+  <meta property="og:title" content="Quizify — Learn & Practice Online Quizzes" />
+  <meta property="og:description"
+    content="Quizify lets you test knowledge with interactive quizzes, timed challenges, and instant feedback." />
+  <meta property="og:url" content="https://www.quizify.com/" />
+  <meta property="og:site_name" content="Quizify" />
+  <meta property="og:image" content="https://www.quizify.com/assets/quizify-cover.png" />
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Quizify — Fun & Interactive Quiz App" />
+  <meta name="twitter:description" content="Practice quizzes, test your knowledge, and track progress with Quizify." />
+  <meta name="twitter:image" content="https://www.quizify.com/assets/quizify-cover.png" />
+
+  <!-- Mobile / PWA -->
+  <meta name="theme-color" content="#0a74da" />
+  <link rel="manifest" href="/manifest.json" />
+  <link rel="icon" href="/favicon.ico" />
+
+
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/x-icon" href="images/1.png">
+
+
+  <!-- Performance Hints -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+
+  <!-- Structured Data: Website Schema -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "Quizify",
+    "url": "https://www.quizify.com/",
+    "potentialAction": {
+      "@type": "SearchAction",
+      "target": "https://www.quizify.com/search?q={search_term_string}",
+      "query-input": "required name=search_term_string"
+    },
+    "description": "Quizify is an online quiz platform to learn and practice multiple-choice questions (MCQs) with instant feedback and progress tracking."
+  }
+  </script>
+</head>
+
+<body>
+  <nav>
+    <form>
+      <div class="navbar">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="technicalquiz.html"> Technical Quiz</a></li>
+          <li><a href="nontechnicalquiz.html"> Non Technical Quiz</a></li>
+          <li><a href="contactus.html">Contact Us</a></li>
+        </ul>
+      </div>
+    </form>
+  </nav>
+  <center>
+    <h1 style="color: red;"> Non Technical Quiz</h1>
+  </center>
+
+  <center>
+    <form id="quizForm">
+
+      <fieldset>
+        <legend>1. Which planet is known as the Red Planet?</legend>
+        <label><input type="radio" name="q1" value="A"> A. Earth</label><br>
+        <label><input type="radio" name="q1" value="B"> B. Mars</label><br>
+        <label><input type="radio" name="q1" value="C"> C. Venus</label><br>
+        <label><input type="radio" name="q1" value="D"> D. Jupiter</label>
+      </fieldset>
+
+      <fieldset>
+        <legend>2. Who wrote the national anthem of India?</legend>
+        <label><input type="radio" name="q2" value="A"> A. Rabindranath Tagore</label><br>
+        <label><input type="radio" name="q2" value="B"> B. Bankim Chandra Chatterjee</label><br>
+        <label><input type="radio" name="q2" value="C"> C. Mahatma Gandhi</label><br>
+        <label><input type="radio" name="q2" value="D"> D. Jawaharlal Nehru</label>
+      </fieldset>
+
+      <fieldset>
+        <legend>3. How many continents are there in the world?</legend>
+        <label><input type="radio" name="q3" value="A"> A. Five</label><br>
+        <label><input type="radio" name="q3" value="B"> B. Six</label><br>
+        <label><input type="radio" name="q3" value="C"> C. Seven</label><br>
+        <label><input type="radio" name="q3" value="D"> D. Eight</label>
+      </fieldset>
+
+      <fieldset>
+        <legend>4. What is the capital of Japan?</legend>
+        <label><input type="radio" name="q4" value="A"> A. Kyoto</label><br>
+        <label><input type="radio" name="q4" value="B"> B. Tokyo</label><br>
+        <label><input type="radio" name="q4" value="C"> C. Osaka</label><br>
+        <label><input type="radio" name="q4" value="D"> D. Hiroshima</label>
+      </fieldset>
+
+      <fieldset>
+        <legend>5. Who is known as the Father of the Nation in India?</legend>
+        <label><input type="radio" name="q5" value="A"> A. Subhas Chandra Bose</label><br>
+        <label><input type="radio" name="q5" value="B"> B. Jawaharlal Nehru</label><br>
+        <label><input type="radio" name="q5" value="C"> C. Mahatma Gandhi</label><br>
+        <label><input type="radio" name="q5" value="D"> D. Bhagat Singh</label>
+      </fieldset>
+
+      <fieldset>
+        <legend>6. What is the largest ocean in the world?</legend>
+        <label><input type="radio" name="q6" value="A"> A. Atlantic Ocean</label><br>
+        <label><input type="radio" name="q6" value="B"> B. Indian Ocean</label><br>
+        <label><input type="radio" name="q6" value="C"> C. Pacific Ocean</label><br>
+        <label><input type="radio" name="q6" value="D"> D. Arctic Ocean</label>
+      </fieldset>
+
+      <fieldset>
+        <legend>7. How many colors are there in a rainbow?</legend>
+        <label><input type="radio" name="q7" value="A"> A. 5</label><br>
+        <label><input type="radio" name="q7" value="B"> B. 6</label><br>
+        <label><input type="radio" name="q7" value="C"> C. 7</label><br>
+        <label><input type="radio" name="q7" value="D"> D. 8</label>
+      </fieldset>
+
+      <fieldset>
+        <legend>8. Who was the first man to step on the Moon?</legend>
+        <label><input type="radio" name="q8" value="A"> A. Yuri Gagarin</label><br>
+        <label><input type="radio" name="q8" value="B"> B. Neil Armstrong</label><br>
+        <label><input type="radio" name="q8" value="C"> C. Buzz Aldrin</label><br>
+        <label><input type="radio" name="q8" value="D"> D. Michael Collins</label>
+      </fieldset>
+
+      <fieldset>
+        <legend>9. What is the national fruit of India?</legend>
+        <label><input type="radio" name="q9" value="A"> A. Banana</label><br>
+        <label><input type="radio" name="q9" value="B"> B. Mango</label><br>
+        <label><input type="radio" name="q9" value="C"> C. Apple</label><br>
+        <label><input type="radio" name="q9" value="D"> D. Orange</label>
+      </fieldset>
+
+      <fieldset>
+        <legend>10. Which country is known as the Land of the Rising Sun?</legend>
+        <label><input type="radio" name="q10" value="A"> A. China</label><br>
+        <label><input type="radio" name="q10" value="B"> B. Japan</label><br>
+        <label><input type="radio" name="q10" value="C"> C. Korea</label><br>
+        <label><input type="radio" name="q10" value="D"> D. Thailand</label>
+      </fieldset>
+
+      <fieldset>
+        <legend>11. What is the currency of the United Kingdom?</legend>
+        <label><input type="radio" name="q11" value="A"> A. Dollar</label><br>
+        <label><input type="radio" name="q11" value="B"> B. Pound Sterling</label><br>
+        <label><input type="radio" name="q11" value="C"> C. Euro</label><br>
+        <label><input type="radio" name="q11" value="D"> D. Franc</label>
+      </fieldset>
+
+      <fieldset>
+        <legend>12. Who painted the Mona Lisa?</legend>
+        <label><input type="radio" name="q12" value="A"> A. Vincent van Gogh</label><br>
+        <label><input type="radio" name="q12" value="B"> B. Pablo Picasso</label><br>
+        <label><input type="radio" name="q12" value="C"> C. Leonardo da Vinci</label><br>
+        <label><input type="radio" name="q12" value="D"> D. Michelangelo</label>
+      </fieldset>
+
+      <fieldset>
+        <legend>13. Which festival is known as the Festival of Lights?</legend>
+        <label><input type="radio" name="q13" value="A"> A. Holi</label><br>
+        <label><input type="radio" name="q13" value="B"> B. Diwali</label><br>
+        <label><input type="radio" name="q13" value="C"> C. Eid</label><br>
+        <label><input type="radio" name="q13" value="D"> D. Christmas</label>
+      </fieldset>
+
+      <fieldset>
+        <legend>14. How many players are there in a cricket team?</legend>
+        <label><input type="radio" name="q14" value="A"> A. 9</label><br>
+        <label><input type="radio" name="q14" value="B"> B. 10</label><br>
+        <label><input type="radio" name="q14" value="C"> C. 11</label><br>
+        <label><input type="radio" name="q14" value="D"> D. 12</label>
+      </fieldset>
+
+      <fieldset>
+        <legend>15. Which animal is known as the Ship of the Desert?</legend>
+        <label><input type="radio" name="q15" value="A"> A. Horse</label><br>
+        <label><input type="radio" name="q15" value="B"> B. Camel</label><br>
+        <label><input type="radio" name="q15" value="C"> C. Donkey</label><br>
+        <label><input type="radio" name="q15" value="D"> D. Elephant</label>
+      </fieldset>
+
+      <fieldset>
+        <legend>16. What is the hardest natural substance on Earth?</legend>
+        <label><input type="radio" name="q16" value="A"> A. Gold</label><br>
+        <label><input type="radio" name="q16" value="B"> B. Iron</label><br>
+        <label><input type="radio" name="q16" value="C"> C. Diamond</label><br>
+        <label><input type="radio" name="q16" value="D"> D. Platinum</label>
+      </fieldset>
+
+      <fieldset>
+        <legend>17. Which gas do plants absorb during photosynthesis?</legend>
+        <label><input type="radio" name="q17" value="A"> A. Oxygen</label><br>
+        <label><input type="radio" name="q17" value="B"> B. Nitrogen</label><br>
+        <label><input type="radio" name="q17" value="C"> C. Carbon Dioxide</label><br>
+        <label><input type="radio" name="q17" value="D"> D. Hydrogen</label>
+      </fieldset>
+
+      <fieldset>
+        <legend>18. What is the national flower of India?</legend>
+        <label><input type="radio" name="q18" value="A"> A. Rose</label><br>
+        <label><input type="radio" name="q18" value="B"> B. Lotus</label><br>
+        <label><input type="radio" name="q18" value="C"> C. Jasmine</label><br>
+        <label><input type="radio" name="q18" value="D"> D. Marigold</label>
+      </fieldset>
+
+      <fieldset>
+        <legend>19. Which day is celebrated as International Yoga Day?</legend>
+        <label><input type="radio" name="q19" value="A"> A. June 21</label><br>
+        <label><input type="radio" name="q19" value="B"> B. April 22</label><br>
+        <label><input type="radio" name="q19" value="C"> C. July 5</label><br>
+        <label><input type="radio" name="q19" value="D"> D. August 15</label>
+      </fieldset>
+
+      <fieldset>
+        <legend>20. Who is known as the Missile Man of India?</legend>
+        <label><input type="radio" name="q20" value="A"> A. Dr. A.P.J. Abdul Kalam</label><br>
+        <label><input type="radio" name="q20" value="B"> B. C.V. Raman</label><br>
+        <label><input type="radio" name="q20" value="C"> C. Homi Bhabha</label><br>
+        <label><input type="radio" name="q20" value="D"> D. Vikram Sarabhai</label>
+      </fieldset>
+
+      <fieldset>
+        <legend>21. Which is the largest desert in the world?</legend>
+        <label><input type="radio" name="q21" value="A"> A. Thar Desert</label><br>
+        <label><input type="radio" name="q21" value="B"> B. Sahara Desert</label><br>
+        <label><input type="radio" name="q21" value="C"> C. Gobi Desert</label><br>
+        <label><input type="radio" name="q21" value="D"> D. Kalahari Desert</label>
+      </fieldset>
+
+      <fieldset>
+        <legend>22. What is the capital of Australia?</legend>
+        <label><input type="radio" name="q22" value="A"> A. Sydney</label><br>
+        <label><input type="radio" name="q22" value="B"> B. Canberra</label><br>
+        <label><input type="radio" name="q22" value="C"> C. Melbourne</label><br>
+        <label><input type="radio" name="q22" value="D"> D. Perth</label>
+      </fieldset>
+
+      <fieldset>
+        <legend>23. Which is the smallest country in the world?</legend>
+        <label><input type="radio" name="q23" value="A"> A. Monaco</label><br>
+        <label><input type="radio" name="q23" value="B"> B. Vatican City</label><br>
+        <label><input type="radio" name="q23" value="C"> C. Malta</label><br>
+        <label><input type="radio" name="q23" value="D"> D. Singapore</label>
+      </fieldset>
+
+      <fieldset>
+        <legend>24. Who invented the telephone?</legend>
+        <label><input type="radio" name="q24" value="A"> A. Alexander Graham Bell</label><br>
+        <label><input type="radio" name="q24" value="B"> B. Thomas Edison</label><br>
+        <label><input type="radio" name="q24" value="C"> C. Nikola Tesla</label><br>
+        <label><input type="radio" name="q24" value="D"> D. Albert Einstein</label>
+      </fieldset>
+
+      <fieldset>
+        <legend>25. How many states are there in India?</legend>
+        <label><input type="radio" name="q25" value="A"> A. 27</label><br>
+        <label><input type="radio" name="q25" value="B"> B. 28</label><br>
+        <label><input type="radio" name="q25" value="C"> C. 29</label><br>
+        <label><input type="radio" name="q25" value="D"> D. 30</label>
+      </fieldset>
+
+      <fieldset>
+        <legend>26. Which gas do humans exhale?</legend>
+        <label><input type="radio" name="q26" value="A"> A. Oxygen</label><br>
+        <label><input type="radio" name="q26" value="B"> B. Carbon Dioxide</label><br>
+        <label><input type="radio" name="q26" value="C"> C. Nitrogen</label><br>
+        <label><input type="radio" name="q26" value="D"> D. Hydrogen</label>
+      </fieldset>
+
+      <fieldset>
+        <legend>27. Which Indian festival celebrates the victory of good over evil?</legend>
+        <label><input type="radio" name="q27" value="A"> A. Holi</label><br>
+        <label><input type="radio" name="q27" value="B"> B. Diwali</label><br>
+        <label><input type="radio" name="q27" value="C"> C. Eid</label><br>
+        <label><input type="radio" name="q27" value="D"> D. Pongal</label>
+      </fieldset>
+
+      <fieldset>
+        <legend>28. Which organ purifies blood in the human body?</legend>
+        <label><input type="radio" name="q28" value="A"> A. Heart</label><br>
+        <label><input type="radio" name="q28" value="B"> B. Lungs</label><br>
+        <label><input type="radio" name="q28" value="C"> C. Kidney</label><br>
+        <label><input type="radio" name="q28" value="D"> D. Liver</label>
+      </fieldset>
+
+      <fieldset>
+        <legend>29. Which is the largest continent?</legend>
+        <label><input type="radio" name="q29" value="A"> A. Africa</label><br>
+        <label><input type="radio" name="q29" value="B"> B. Asia</label><br>
+        <label><input type="radio" name="q29" value="C"> C. Europe</label><br>
+        <label><input type="radio" name="q29" value="D"> D. North America</label>
+      </fieldset>
+
+      <fieldset>
+        <legend>30. Which metal is liquid at room temperature?</legend>
+        <label><input type="radio" name="q30" value="A"> A. Gold</label><br>
+        <label><input type="radio" name="q30" value="B"> B. Mercury</label><br>
+        <label><input type="radio" name="q30" value="C"> C. Iron</label><br>
+        <label><input type="radio" name="q30" value="D"> D. Copper</label>
+      </fieldset>
+
+      <fieldset>
+        <legend>31. Which is the longest river in the world?</legend>
+        <label><input type="radio" name="q31" value="A"> A. Amazon</label><br>
+        <label><input type="radio" name="q31" value="B"> B. Nile</label><br>
+        <label><input type="radio" name="q31" value="C"> C. Mississippi</label><br>
+        <label><input type="radio" name="q31" value="D"> D. Yangtze</label>
+      </fieldset>
+
+      <fieldset>
+        <legend>32. What is the national currency of Japan?</legend>
+        <label><input type="radio" name="q32" value="A"> A. Yen</label><br>
+        <label><input type="radio" name="q32" value="B"> B. Dollar</label><br>
+        <label><input type="radio" name="q32" value="C"> C. Won</label><br>
+        <label><input type="radio" name="q32" value="D"> D. Peso</label>
+      </fieldset>
+
+      <fieldset>
+        <legend>33. Which planet is closest to the Sun?</legend>
+        <label><input type="radio" name="q33" value="A"> A. Venus</label><br>
+        <label><input type="radio" name="q33" value="B"> B. Mercury</label><br>
+        <label><input type="radio" name="q33" value="C"> C. Mars</label><br>
+        <label><input type="radio" name="q33" value="D"> D. Earth</label>
+      </fieldset>
+
+      <fieldset>
+        <legend>34. Which festival is known as the Festival of Colors?</legend>
+        <label><input type="radio" name="q34" value="A"> A. Diwali</label><br>
+        <label><input type="radio" name="q34" value="B"> B. Holi</label><br>
+        <label><input type="radio" name="q34" value="C"> C. Onam</label><br>
+        <label><input type="radio" name="q34" value="D"> D. Christmas</label>
+      </fieldset>
+
+      <fieldset>
+        <legend>35. Who was the first President of India?</legend>
+        <label><input type="radio" name="q35" value="A"> A. Jawaharlal Nehru</label><br>
+        <label><input type="radio" name="q35" value="B"> B. Dr. Rajendra Prasad</label><br>
+        <label><input type="radio" name="q35" value="C"> C. S. Radhakrishnan</label><br>
+        <label><input type="radio" name="q35" value="D"> D. Indira Gandhi</label>
+      </fieldset>
+
+      <fieldset>
+        <legend>36. Which is the largest animal in the world?</legend>
+        <label><input type="radio" name="q36" value="A"> A. Elephant</label><br>
+        <label><input type="radio" name="q36" value="B"> B. Blue Whale</label><br>
+        <label><input type="radio" name="q36" value="C"> C. Shark</label><br>
+        <label><input type="radio" name="q36" value="D"> D. Giraffe</label>
+      </fieldset>
+
+      <fieldset>
+        <legend>37. Which country hosted the 2024 Summer Olympics?</legend>
+        <label><input type="radio" name="q37" value="A"> A. Japan</label><br>
+        <label><input type="radio" name="q37" value="B"> B. France</label><br>
+        <label><input type="radio" name="q37" value="C"> C. USA</label><br>
+        <label><input type="radio" name="q37" value="D"> D. Brazil</label>
+      </fieldset>
+
+      <fieldset>
+        <legend>38. How many days are there in a leap year?</legend>
+        <label><input type="radio" name="q38" value="A"> A. 365</label><br>
+        <label><input type="radio" name="q38" value="B"> B. 366</label><br>
+        <label><input type="radio" name="q38" value="C"> C. 364</label><br>
+        <label><input type="radio" name="q38" value="D"> D. 367</label>
+      </fieldset>
+
+      <fieldset>
+        <legend>39. What is the national game of India?</legend>
+        <label><input type="radio" name="q39" value="A"> A. Cricket</label><br>
+        <label><input type="radio" name="q39" value="B"> B. Hockey</label><br>
+        <label><input type="radio" name="q39" value="C"> C. Football</label><br>
+        <label><input type="radio" name="q39" value="D"> D. Kabaddi</label>
+      </fieldset>
+
+      <fieldset>
+        <legend>40. Who discovered gravity?</legend>
+        <label><input type="radio" name="q40" value="A"> A. Isaac Newton</label><br>
+        <label><input type="radio" name="q40" value="B"> B. Albert Einstein</label><br>
+        <label><input type="radio" name="q40" value="C"> C. Galileo Galilei</label><br>
+        <label><input type="radio" name="q40" value="D"> D. Charles Darwin</label>
+      </fieldset>
+
+      <fieldset>
+        <legend>41. Which shape has three sides?</legend>
+        <label><input type="radio" name="q41" value="A"> A. Square</label><br>
+        <label><input type="radio" name="q41" value="B"> B. Triangle</label><br>
+        <label><input type="radio" name="q41" value="C"> C. Circle</label><br>
+        <label><input type="radio" name="q41" value="D"> D. Rectangle</label>
+      </fieldset>
+
+      <fieldset>
+        <legend>42. What color do you get when you mix blue and yellow?</legend>
+        <label><input type="radio" name="q42" value="A"> A. Green</label><br>
+        <label><input type="radio" name="q42" value="B"> B. Red</label><br>
+        <label><input type="radio" name="q42" value="C"> C. Orange</label><br>
+        <label><input type="radio" name="q42" value="D"> D. Purple</label>
+      </fieldset>
+
+      <fieldset>
+        <legend>43. How many continents are there in the world?</legend>
+        <label><input type="radio" name="q43" value="A"> A. Five</label><br>
+        <label><input type="radio" name="q43" value="B"> B. Six</label><br>
+        <label><input type="radio" name="q43" value="C"> C. Seven</label><br>
+        <label><input type="radio" name="q43" value="D"> D. Eight</label>
+      </fieldset>
+
+      <fieldset>
+        <legend>44. Which animal is known as the 'King of the Jungle'?</legend>
+        <label><input type="radio" name="q44" value="A"> A. Elephant</label><br>
+        <label><input type="radio" name="q44" value="B"> B. Tiger</label><br>
+        <label><input type="radio" name="q44" value="C"> C. Lion</label><br>
+        <label><input type="radio" name="q44" value="D"> D. Leopard</label>
+      </fieldset>
+
+      <fieldset>
+        <legend>45. What is the capital city of Japan?</legend>
+        <label><input type="radio" name="q45" value="A"> A. Beijing</label><br>
+        <label><input type="radio" name="q45" value="B"> B. Seoul</label><br>
+        <label><input type="radio" name="q45" value="C"> C. Tokyo</label><br>
+        <label><input type="radio" name="q45" value="D"> D. Bangkok</label>
+      </fieldset>
+
+      <fieldset>
+        <legend>46. What do bees produce?</legend>
+        <label><input type="radio" name="q46" value="A"> A. Wax</label><br>
+        <label><input type="radio" name="q46" value="B"> B. Honey</label><br>
+        <label><input type="radio" name="q46" value="C"> C. Milk</label><br>
+        <label><input type="radio" name="q46" value="D"> D. Silk</label>
+      </fieldset>
+
+      <fieldset>
+        <legend>47. Which planet is known as the “Red Planet”?</legend>
+        <label><input type="radio" name="q47" value="A"> A. Venus</label><br>
+        <label><input type="radio" name="q47" value="B"> B. Mars</label><br>
+        <label><input type="radio" name="q47" value="C"> C. Jupiter</label><br>
+        <label><input type="radio" name="q47" value="D"> D. Saturn</label>
+      </fieldset>
+
+      <fieldset>
+        <legend>48. How many hours are there in two days?</legend>
+        <label><input type="radio" name="q48" value="A"> A. 12</label><br>
+        <label><input type="radio" name="q48" value="B"> B. 24</label><br>
+        <label><input type="radio" name="q48" value="C"> C. 36</label><br>
+        <label><input type="radio" name="q48" value="D"> D. 48</label>
+      </fieldset>
+
+      <fieldset>
+        <legend>49. What gas do humans exhale?</legend>
+        <label><input type="radio" name="q49" value="A"> A. Oxygen</label><br>
+        <label><input type="radio" name="q49" value="B"> B. Carbon dioxide</label><br>
+        <label><input type="radio" name="q49" value="C"> C. Nitrogen</label><br>
+        <label><input type="radio" name="q49" value="D"> D. Helium</label>
+      </fieldset>
+
+      <fieldset>
+        <legend>50. What is 15 + 25?</legend>
+        <label><input type="radio" name="q50" value="A"> A. 30</label><br>
+        <label><input type="radio" name="q50" value="B"> B. 35</label><br>
+        <label><input type="radio" name="q50" value="C"> C. 40</label><br>
+        <label><input type="radio" name="q50" value="D"> D. 45</label>
+      </fieldset>
+
+      <fieldset>
+        <legend>51. Which country is known as the “Land of the Rising Sun”?</legend>
+        <label><input type="radio" name="q51" value="A"> A. Japan</label><br>
+        <label><input type="radio" name="q51" value="B"> B. China</label><br>
+        <label><input type="radio" name="q51" value="C"> C. India</label><br>
+        <label><input type="radio" name="q51" value="D"> D. Korea</label>
+      </fieldset>
+
+      <fieldset>
+        <legend>52. What is the boiling point of water at sea level?</legend>
+        <label><input type="radio" name="q52" value="A"> A. 50°C</label><br>
+        <label><input type="radio" name="q52" value="B"> B. 90°C</label><br>
+        <label><input type="radio" name="q52" value="C"> C. 100°C</label><br>
+        <label><input type="radio" name="q52" value="D"> D. 120°C</label>
+      </fieldset>
+
+      <fieldset>
+        <legend>53. How many strings does a standard guitar have?</legend>
+        <label><input type="radio" name="q53" value="A"> A. 4</label><br>
+        <label><input type="radio" name="q53" value="B"> B. 5</label><br>
+        <label><input type="radio" name="q53" value="C"> C. 6</label><br>
+        <label><input type="radio" name="q53" value="D"> D. 7</label>
+      </fieldset>
+
+      <fieldset>
+        <legend>54. Who wrote the national anthem of India?</legend>
+        <label><input type="radio" name="q54" value="A"> A. Bankim Chandra Chatterjee</label><br>
+        <label><input type="radio" name="q54" value="B"> B. Rabindranath Tagore</label><br>
+        <label><input type="radio" name="q54" value="C"> C. Mahatma Gandhi</label><br>
+        <label><input type="radio" name="q54" value="D"> D. Subhas Chandra Bose</label>
+      </fieldset>
+
+      <fieldset>
+        <legend>55. What color are emeralds?</legend>
+        <label><input type="radio" name="q55" value="A"> A. Blue</label><br>
+        <label><input type="radio" name="q55" value="B"> B. Green</label><br>
+        <label><input type="radio" name="q55" value="C"> C. Red</label><br>
+        <label><input type="radio" name="q55" value="D"> D. Yellow</label>
+      </fieldset>
+
+      <fieldset>
+        <legend>56. How many legs does a spider have?</legend>
+        <label><input type="radio" name="q56" value="A"> A. Six</label><br>
+        <label><input type="radio" name="q56" value="B"> B. Eight</label><br>
+        <label><input type="radio" name="q56" value="C"> C. Ten</label><br>
+        <label><input type="radio" name="q56" value="D"> D. Twelve</label>
+      </fieldset>
+
+      <fieldset>
+        <legend>57. Which is the largest ocean in the world?</legend>
+        <label><input type="radio" name="q57" value="A"> A. Atlantic Ocean</label><br>
+        <label><input type="radio" name="q57" value="B"> B. Indian Ocean</label><br>
+        <label><input type="radio" name="q57" value="C"> C. Pacific Ocean</label><br>
+        <label><input type="radio" name="q57" value="D"> D. Arctic Ocean</label>
+      </fieldset>
+
+      <fieldset>
+        <legend>58. Which is the smallest prime number?</legend>
+        <label><input type="radio" name="q58" value="A"> A. 1</label><br>
+        <label><input type="radio" name="q58" value="B"> B. 2</label><br>
+        <label><input type="radio" name="q58" value="C"> C. 3</label><br>
+        <label><input type="radio" name="q58" value="D"> D. 5</label>
+      </fieldset>
+
+      <fieldset>
+        <legend>59. What does a thermometer measure?</legend>
+        <label><input type="radio" name="q59" value="A"> A. Pressure</label><br>
+        <label><input type="radio" name="q59" value="B"> B. Temperature</label><br>
+        <label><input type="radio" name="q59" value="C"> C. Weight</label><br>
+        <label><input type="radio" name="q59" value="D"> D. Height</label>
+      </fieldset>
+
+      <fieldset>
+        <legend>60. Which organ in the body pumps blood?</legend>
+        <label><input type="radio" name="q60" value="A"> A. Brain</label><br>
+        <label><input type="radio" name="q60" value="B"> B. Heart</label><br>
+        <label><input type="radio" name="q60" value="C"> C. Kidney</label><br>
+        <label><input type="radio" name="q60" value="D"> D. Lung</label>
+      </fieldset>
+
+      <!-- QUESTIONS 61–100 BELOW -->
+
+      <fieldset>
+        <legend>61. Which festival is known as the Festival of Lights?</legend>
+        <label><input type="radio" name="q61" value="A"> A. Holi</label><br>
+        <label><input type="radio" name="q61" value="B"> B. Diwali</label><br>
+        <label><input type="radio" name="q61" value="C"> C. Eid</label><br>
+        <label><input type="radio" name="q61" value="D"> D. Christmas</label>
+      </fieldset>
+
+      <fieldset>
+        <legend>62. Who discovered gravity?</legend>
+        <label><input type="radio" name="q62" value="A"> A. Albert Einstein</label><br>
+        <label><input type="radio" name="q62" value="B"> B. Isaac Newton</label><br>
+        <label><input type="radio" name="q62" value="C"> C. Galileo Galilei</label><br>
+        <label><input type="radio" name="q62" value="D"> D. Stephen Hawking</label>
+      </fieldset>
+
+      <fieldset>
+        <legend>63. What is the capital of France?</legend>
+        <label><input type="radio" name="q63" value="A"> A. Berlin</label><br>
+        <label><input type="radio" name="q63" value="B"> B. Madrid</label><br>
+        <label><input type="radio" name="q63" value="C"> C. Paris</label><br>
+        <label><input type="radio" name="q63" value="D"> D. Rome</label>
+      </fieldset>
+
+      <fieldset>
+        <legend>64. What is 9 × 7?</legend>
+        <label><input type="radio" name="q64" value="A"> A. 56</label><br>
+        <label><input type="radio" name="q64" value="B"> B. 63</label><br>
+        <label><input type="radio" name="q64" value="C"> C. 72</label><br>
+        <label><input type="radio" name="q64" value="D"> D. 81</label>
+      </fieldset>
+
+      <fieldset>
+        <legend>65. Which country is famous for pizza and pasta?</legend>
+        <label><input type="radio" name="q65" value="A"> A. Italy</label><br>
+        <label><input type="radio" name="q65" value="B"> B. France</label><br>
+        <label><input type="radio" name="q65" value="C"> C. Spain</label><br>
+        <label><input type="radio" name="q65" value="D"> D. Greece</label>
+      </fieldset>
+
+      <fieldset>
+        <legend>66. What currency is used in the United States?</legend>
+        <label><input type="radio" name="q66" value="A"> A. Pound</label><br>
+        <label><input type="radio" name="q66" value="B"> B. Euro</label><br>
+        <label><input type="radio" name="q66" value="C"> C. Dollar</label><br>
+        <label><input type="radio" name="q66" value="D"> D. Yen</label>
+      </fieldset>
+
+      <fieldset>
+        <legend>67. What is the opposite of “hot”?</legend>
+        <label><input type="radio" name="q67" value="A"> A. Warm</label><br>
+        <label><input type="radio" name="q67" value="B"> B. Cold</label><br>
+        <label><input type="radio" name="q67" value="C"> C. Cool</label><br>
+        <label><input type="radio" name="q67" value="D"> D. Dry</label>
+      </fieldset>
+
+      <fieldset>
+        <legend>68. How many days are there in a leap year?</legend>
+        <label><input type="radio" name="q68" value="A"> A. 364</label><br>
+        <label><input type="radio" name="q68" value="B"> B. 365</label><br>
+        <label><input type="radio" name="q68" value="C"> C. 366</label><br>
+        <label><input type="radio" name="q68" value="D"> D. 367</label>
+      </fieldset>
+
+      <fieldset>
+        <legend>69. What color is the sky on a clear day?</legend>
+        <label><input type="radio" name="q69" value="A"> A. Blue</label><br>
+        <label><input type="radio" name="q69" value="B"> B. Green</label><br>
+        <label><input type="radio" name="q69" value="C"> C. Red</label><br>
+        <label><input type="radio" name="q69" value="D"> D. Yellow</label>
+      </fieldset>
+
+      <fieldset>
+        <legend>70. What shape is a stop sign?</legend>
+        <label><input type="radio" name="q70" value="A"> A. Triangle</label><br>
+        <label><input type="radio" name="q70" value="B"> B. Octagon</label><br>
+        <label><input type="radio" name="q70" value="C"> C. Square</label><br>
+        <label><input type="radio" name="q70" value="D"> D. Pentagon</label>
+      </fieldset>
+
+      <fieldset>
+        <legend>71. Which month has 28 days?</legend>
+        <label><input type="radio" name="q71" value="A"> A. February</label><br>
+        <label><input type="radio" name="q71" value="B"> B. January</label><br>
+        <label><input type="radio" name="q71" value="C"> C. March</label><br>
+        <label><input type="radio" name="q71" value="D"> D. April</label>
+      </fieldset>
+
+      <fieldset>
+        <legend>72. What do you call a baby cat?</legend>
+        <label><input type="radio" name="q72" value="A"> A. Puppy</label><br>
+        <label><input type="radio" name="q72" value="B"> B. Kitten</label><br>
+        <label><input type="radio" name="q72" value="C"> C. Cub</label><br>
+        <label><input type="radio" name="q72" value="D"> D. Foal</label>
+      </fieldset>
+
+      <fieldset>
+        <legend>73. How many wheels does a car have?</legend>
+        <label><input type="radio" name="q73" value="A"> A. 2</label><br>
+        <label><input type="radio" name="q73" value="B"> B. 3</label><br>
+        <label><input type="radio" name="q73" value="C"> C. 4</label><br>
+        <label><input type="radio" name="q73" value="D"> D. 6</label>
+      </fieldset>
+
+      <fieldset>
+        <legend>74. What do we use to write on a blackboard?</legend>
+        <label><input type="radio" name="q74" value="A"> A. Pen</label><br>
+        <label><input type="radio" name="q74" value="B"> B. Pencil</label><br>
+        <label><input type="radio" name="q74" value="C"> C. Chalk</label><br>
+        <label><input type="radio" name="q74" value="D"> D. Marker</label>
+      </fieldset>
+
+      <fieldset>
+        <legend>75. Which animal gives us wool?</legend>
+        <label><input type="radio" name="q75" value="A"> A. Cow</label><br>
+        <label><input type="radio" name="q75" value="B"> B. Sheep</label><br>
+        <label><input type="radio" name="q75" value="C"> C. Goat</label><br>
+        <label><input type="radio" name="q75" value="D"> D. Camel</label>
+      </fieldset>
+
+      <fieldset>
+        <legend>76. What is the tallest animal in the world?</legend>
+        <label><input type="radio" name="q76" value="A"> A. Elephant</label><br>
+        <label><input type="radio" name="q76" value="B"> B. Giraffe</label><br>
+        <label><input type="radio" name="q76" value="C"> C. Horse</label><br>
+        <label><input type="radio" name="q76" value="D"> D. Kangaroo</label>
+      </fieldset>
+
+      <fieldset>
+        <legend>77. What is the color of a ripe banana?</legend>
+        <label><input type="radio" name="q77" value="A"> A. Green</label><br>
+        <label><input type="radio" name="q77" value="B"> B. Yellow</label><br>
+        <label><input type="radio" name="q77" value="C"> C. Red</label><br>
+        <label><input type="radio" name="q77" value="D"> D. Orange</label>
+      </fieldset>
+
+      <fieldset>
+        <legend>78. Which planet is closest to the Sun?</legend>
+        <label><input type="radio" name="q78" value="A"> A. Mercury</label><br>
+        <label><input type="radio" name="q78" value="B"> B. Venus</label><br>
+        <label><input type="radio" name="q78" value="C"> C. Earth</label><br>
+        <label><input type="radio" name="q78" value="D"> D. Mars</label>
+      </fieldset>
+
+      <fieldset>
+        <legend>79. What do cows drink?</legend>
+        <label><input type="radio" name="q79" value="A"> A. Milk</label><br>
+        <label><input type="radio" name="q79" value="B"> B. Water</label><br>
+        <label><input type="radio" name="q79" value="C"> C. Juice</label><br>
+        <label><input type="radio" name="q79" value="D"> D. Tea</label>
+      </fieldset>
+
+      <fieldset>
+        <legend>80. Which direction does the Sun rise from?</legend>
+        <label><input type="radio" name="q80" value="A"> A. North</label><br>
+        <label><input type="radio" name="q80" value="B"> B. South</label><br>
+        <label><input type="radio" name="q80" value="C"> C. East</label><br>
+        <label><input type="radio" name="q80" value="D"> D. West</label>
+      </fieldset>
+
+      <fieldset>
+        <legend>81. How many sides does a square have?</legend>
+        <label><input type="radio" name="q81" value="A"> A. 3</label><br>
+        <label><input type="radio" name="q81" value="B"> B. 4</label><br>
+        <label><input type="radio" name="q81" value="C"> C. 5</label><br>
+        <label><input type="radio" name="q81" value="D"> D. 6</label>
+      </fieldset>
+
+      <fieldset>
+        <legend>82. Which instrument measures time?</legend>
+        <label><input type="radio" name="q82" value="A"> A. Clock</label><br>
+        <label><input type="radio" name="q82" value="B"> B. Thermometer</label><br>
+        <label><input type="radio" name="q82" value="C"> C. Barometer</label><br>
+        <label><input type="radio" name="q82" value="D"> D. Compass</label>
+      </fieldset>
+
+      <fieldset>
+        <legend>83. Which fruit is red and used in ketchup?</legend>
+        <label><input type="radio" name="q83" value="A"> A. Strawberry</label><br>
+        <label><input type="radio" name="q83" value="B"> B. Tomato</label><br>
+        <label><input type="radio" name="q83" value="C"> C. Cherry</label><br>
+        <label><input type="radio" name="q83" value="D"> D. Watermelon</label>
+      </fieldset>
+
+      <fieldset>
+        <legend>84. How many letters are there in the English alphabet?</legend>
+        <label><input type="radio" name="q84" value="A"> A. 24</label><br>
+        <label><input type="radio" name="q84" value="B"> B. 25</label><br>
+        <label><input type="radio" name="q84" value="C"> C. 26</label><br>
+        <label><input type="radio" name="q84" value="D"> D. 27</label>
+      </fieldset>
+
+      <fieldset>
+        <legend>85. What do plants absorb to make food?</legend>
+        <label><input type="radio" name="q85" value="A"> A. Oxygen</label><br>
+        <label><input type="radio" name="q85" value="B"> B. Carbon dioxide</label><br>
+        <label><input type="radio" name="q85" value="C"> C. Nitrogen</label><br>
+        <label><input type="radio" name="q85" value="D"> D. Hydrogen</label>
+      </fieldset>
+
+      <fieldset>
+        <legend>86. How many players are there in a cricket team?</legend>
+        <label><input type="radio" name="q86" value="A"> A. 9</label><br>
+        <label><input type="radio" name="q86" value="B"> B. 10</label><br>
+        <label><input type="radio" name="q86" value="C"> C. 11</label><br>
+        <label><input type="radio" name="q86" value="D"> D. 12</label>
+      </fieldset>
+
+      <fieldset>
+        <legend>87. What part of the plant is mainly responsible for photosynthesis?</legend>
+        <label><input type="radio" name="q87" value="A"> A. Root</label><br>
+        <label><input type="radio" name="q87" value="B"> B. Stem</label><br>
+        <label><input type="radio" name="q87" value="C"> C. Leaf</label><br>
+        <label><input type="radio" name="q87" value="D"> D. Flower</label>
+      </fieldset>
+
+      <fieldset>
+        <legend>88. Which is the fastest land animal?</legend>
+        <label><input type="radio" name="q88" value="A"> A. Lion</label><br>
+        <label><input type="radio" name="q88" value="B"> B. Cheetah</label><br>
+        <label><input type="radio" name="q88" value="C"> C. Tiger</label><br>
+        <label><input type="radio" name="q88" value="D"> D. Horse</label>
+      </fieldset>
+
+      <fieldset>
+        <legend>89. What color symbolizes peace?</legend>
+        <label><input type="radio" name="q89" value="A"> A. Black</label><br>
+        <label><input type="radio" name="q89" value="B"> B. White</label><br>
+        <label><input type="radio" name="q89" value="C"> C. Red</label><br>
+        <label><input type="radio" name="q89" value="D"> D. Green</label>
+      </fieldset>
+
+      <fieldset>
+        <legend>90. How many minutes are there in one hour?</legend>
+        <label><input type="radio" name="q90" value="A"> A. 30</label><br>
+        <label><input type="radio" name="q90" value="B"> B. 45</label><br>
+        <label><input type="radio" name="q90" value="C"> C. 60</label><br>
+        <label><input type="radio" name="q90" value="D"> D. 90</label>
+      </fieldset>
+
+      <fieldset>
+        <legend>91. What color are most leaves?</legend>
+        <label><input type="radio" name="q91" value="A"> A. Green</label><br>
+        <label><input type="radio" name="q91" value="B"> B. Yellow</label><br>
+        <label><input type="radio" name="q91" value="C"> C. Red</label><br>
+        <label><input type="radio" name="q91" value="D"> D. Blue</label>
+      </fieldset>
+
+      <fieldset>
+        <legend>92. What is the capital of India?</legend>
+        <label><input type="radio" name="q92" value="A"> A. Mumbai</label><br>
+        <label><input type="radio" name="q92" value="B"> B. Delhi</label><br>
+        <label><input type="radio" name="q92" value="C"> C. Kolkata</label><br>
+        <label><input type="radio" name="q92" value="D"> D. Chennai</label>
+      </fieldset>
+
+      <fieldset>
+        <legend>93. Which is the largest mammal?</legend>
+        <label><input type="radio" name="q93" value="A"> A. Elephant</label><br>
+        <label><input type="radio" name="q93" value="B"> B. Blue whale</label><br>
+        <label><input type="radio" name="q93" value="C"> C. Rhino</label><br>
+        <label><input type="radio" name="q93" value="D"> D. Giraffe</label>
+      </fieldset>
+
+      <fieldset>
+        <legend>94. What do we call frozen water?</legend>
+        <label><input type="radio" name="q94" value="A"> A. Steam</label><br>
+        <label><input type="radio" name="q94" value="B"> B. Ice</label><br>
+        <label><input type="radio" name="q94" value="C"> C. Snow</label><br>
+        <label><input type="radio" name="q94" value="D"> D. Dew</label>
+      </fieldset>
+
+      <fieldset>
+        <legend>95. Which day comes after Friday?</legend>
+        <label><input type="radio" name="q95" value="A"> A. Sunday</label><br>
+        <label><input type="radio" name="q95" value="B"> B. Saturday</label><br>
+        <label><input type="radio" name="q95" value="C"> C. Monday</label><br>
+        <label><input type="radio" name="q95" value="D"> D. Thursday</label>
+      </fieldset>
+
+      <fieldset>
+        <legend>96. What do you use to take photos?</legend>
+        <label><input type="radio" name="q96" value="A"> A. Telescope</label><br>
+        <label><input type="radio" name="q96" value="B"> B. Microscope</label><br>
+        <label><input type="radio" name="q96" value="C"> C. Camera</label><br>
+        <label><input type="radio" name="q96" value="D"> D. Binoculars</label>
+      </fieldset>
+
+      <fieldset>
+        <legend>97. Which gas do humans need to breathe?</legend>
+        <label><input type="radio" name="q97" value="A"> A. Oxygen</label><br>
+        <label><input type="radio" name="q97" value="B"> B. Carbon dioxide</label><br>
+        <label><input type="radio" name="q97" value="C"> C. Nitrogen</label><br>
+        <label><input type="radio" name="q97" value="D"> D. Helium</label>
+      </fieldset>
+
+      <fieldset>
+        <legend>98. What do we call the baby of a dog?</legend>
+        <label><input type="radio" name="q98" value="A"> A. Kitten</label><br>
+        <label><input type="radio" name="q98" value="B"> B. Puppy</label><br>
+        <label><input type="radio" name="q98" value="C"> C. Cub</label><br>
+        <label><input type="radio" name="q98" value="D"> D. Calf</label>
+      </fieldset>
+
+      <fieldset>
+        <legend>99. How many days are there in a week?</legend>
+        <label><input type="radio" name="q99" value="A"> A. 5</label><br>
+        <label><input type="radio" name="q99" value="B"> B. 6</label><br>
+        <label><input type="radio" name="q99" value="C"> C. 7</label><br>
+        <label><input type="radio" name="q99" value="D"> D. 8</label>
+      </fieldset>
+
+      <fieldset>
+        <legend>100. Which sense organ helps us to see?</legend>
+        <label><input type="radio" name="q100" value="A"> A. Ears</label><br>
+        <label><input type="radio" name="q100" value="B"> B. Nose</label><br>
+        <label><input type="radio" name="q100" value="C"> C. Eyes</label><br>
+        <label><input type="radio" name="q100" value="D"> D. Skin</label>
+      </fieldset>
+
+      <input type="submit" value="Submit Answers" class="submit" />
+
+
+
+    </form>
+  </center>
+
+  <!-- Footer Start -->
+  <footer class="footer">
+    <div class="footer-content">
+      <p>&copy; 2025 Quizify<sup>®</sup> Website. Made By<a
+          href="https://uqzpr8pm2c24p2fpksmuiw.on.drv.tw/SKMP%20INFOTECH%20TECHNOLOGIES/SKMP%20NEW%20%20CEO%20PORTAL/">
+          Er:- Suzen Kumar Mohanty </a> All rights reserved.(project Purpose not for sale)</p>
+      <p>
+        <a href="#">Privacy Policy</a> |
+        <a href="#">Terms of Service</a>
+      </p>
+    </div>
+  </footer>
+  <!-- Footer End -->
+
+</body>
+
+
+</html>
