@@ -37,7 +37,4 @@ It’s designed with a focus on **simplicity, usability, and speed**, offering a
 
 ---
 
-## 📸 Screenshot
 
-```html
-<img src="images/project image/quizfy.png" alt="Quizfy Website Screenshot" width="800">
